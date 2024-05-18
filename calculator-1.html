@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>235150707111017_Ghairan Rahmad Al Ghani_Tugas 09</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <input style="background-color: rgb(62, 61, 61); color: white" type="text" id="screen" readonly />
+      <div class="buttons">
+        <button onclick="calculate('*')">x</button>
+        <button onclick="calculate('/')">÷</button>
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('-')">-</button>
+
+        <button onclick="appendToScreen('7')">7</button>
+        <button onclick="appendToScreen('8')">8</button>
+        <button onclick="appendToScreen('9')">9</button>
+
+        <button onclick="appendToScreen('4')">4</button>
+        <button onclick="appendToScreen('5')">5</button>
+        <button onclick="appendToScreen('6')">6</button>
+
+        <button onclick="appendToScreen('1')">1</button>
+        <button onclick="appendToScreen('2')">2</button>
+        <button onclick="appendToScreen('3')">3</button>
+        <button style="background-color: rgb(44, 56, 225); color: white" onclick="calculate('=')" class="equals">=</button>
+
+        <button onclick="appendToScreen('0')">0</button>
+        <button onclick="appendToScreen('.')">.</button>
+        <button style="background-color: rgb(255, 10, 2); color: rgb(255, 255, 255)" onclick="clearScreen()">AC</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
